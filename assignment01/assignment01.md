@@ -159,85 +159,118 @@ Severity ratings:
 
 #### About
 
+The Go Higher site appears to be intended to describe, elaborate on and provide resources for the Go Higher program in the state of Massachusetts, a program that operates at the high-school level to promote college readiness and raise awareness about the programs, opportunities and resources available at schools across the higher education level. The user flow on this site is mainly exploratory, as a user can peruse this site to try to find relevant information to understand the program.
+
 #### 1. Visibility of System Status
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* The UI incorporates a breadcrumb trail to let the user know how the site has been accessed and where it links back to within the greater mass.edu domain.
+* When exploring through sub-pages in tabs (e.g. About), each sub-page also has info on the tab it resides in and easy toggles to other sub-pages in that tab
+* All interactions have immediate visual feedback (e.g. navigating to new page).
 
-> *Recommendation?*
+Bad:
+* When using interactive map, upon clicking on a school you're taken to a new tab (which is about the interactive map, so not a big context shift, but still unexpected.)
+
+
+> *Recommendation?* Yes: some form of visual indicator/button that you will then go to Campus directory when clicking on school on interactive map.
 
 #### 2. Match Between System and the Real World
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* Expandable and collapsible menus in tab bar operate as expected
 
-> *Recommendation?*
+Bad:
+* Carousel of highlights keeps transitioning horizontally, but position indicator circles are arranged in a vertical line - mismatch can be confusing.
+
+> *Recommendation?* Yes - make position indicator circles horizontally aligned.
 
 #### 3. User Control and Freedom
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* Breadcrumbs help establish a lifeline for users to feel more comfortable exploring without losing context.
+* Users can navigate back and forward across linked pages freely using back and forward buttons in browser.
 
-> *Recommendation?*
+Bad:
+* Interactive map takes user to another page, and exploring other schools on map is tedious as you need to scroll to top of 2nd page to find interactive map again and keep rescrolling every time you want to see another school.
+
+> *Recommendation?* Yes: Redesign interactive map interaction - have it remain static on page, and each time you select a new school the info in a single section immediately below it changes to match the school you selected.
+
 #### 4. Consistency and Standards
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* Follows convention for tab structure, navigation structure (Home/About, etc.)
+* Explains all names that it introduces to user for first time\
 
-> *Recommendation?*
+Bad:
+* Carousel on home page does not match standard carousel for reason listed in heuristic #2
+
+
+> *Recommendation?* Yes - fix carousel as highlighted in heuristic #2
 
 #### 5. Error Prevention
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* No place with high-priority user input to make specific mistakes or slips more frequently than average rate of error, that cannot easily be rectified by going back.
 
-> *Recommendation?*
+> *Recommendation?* No - not needed in this case, as major user input is not necessary.
 
 #### 6. Recognition Rather Than Recall
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* When selecting a page from tab item menu, the page has the tab item's menu visible with all the other options so one can easily recognize context/hierarchy it exists in.
+* Certain sub-pages have buttons that toggle scrolling to sections - primes user for recognition of contents through recognizing section header.
 
-> *Recommendation?*
+> *Recommendation?* No - this interface primes users for recognition well.
+
 #### 7. Flexibility and Efficiency of Use
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* Visibility of tab menus with other options on each subpage helps user pivot between pages in a single tab easily.
 
-> *Recommendation?*
+Bad:
+* In What's New, scroll feels endless and inefficient as it gets tediously long
+* No dynamic, varied possible actions of interacting with interface - not very flexible, but quite simple to understand
+* No customization or personalization available
+* Opts to navigate user to many external links over providing resource inside the site
+
+> *Recommendation?* News/Updates sub-page could benefit from some time/date-stamping and pagination to make scroll feel a bit more manageable and efficient.
 
 #### 8. Aesthetic and Minimalist Design
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* Consistent text/heading styles that denote some sense of written structure to each page
 
-> *Recommendation?*
+Bad:
+* Image banner at top is distracting with low value, and reduces visibility of anything below it at first glance.
+* Tabs are not horizontally aligned - it looks unprofessional and chaotic.
+* Section divisions are not clear enough - not enough spacing or dividers, reduces visibility and scannability of each distinct piece of content
+* Inconsistent button styles - red in homepage for More button, but going to other site like in Commonwealth Dual Enrollment Partnership has a blue button? And blue button is positioned like image with text wrapping it? Confusing messaging of sequence - where does user look first?
+
+> *Recommendation?* Yes: fix all aforementioned issues!
+
+#### 9. Help Users Recognize, Diagnose, and Recover From Errors
+
+Good:
+* Clear section headings and signposts let user know immediately if they misclicked or not
+
+> *Recommendation?* No - as kinds of errors made are very low-stakes and simple, the measures already taken by the site will suffice.
 
 #### 10. Help and Documentation
-* point here
 
-<p align="center">
-  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
-</p>
+Good:
+* Always hyperlinks to resources that are introduced in this site
 
-> *Recommendation?*
+Bad:
+* No FAQs
+* No clear point of contact about this program/initiative specifically
+
+> *Recommendation?* Yes - add another tab with staff or contact information for administrators of this project specifically, and FAQs with common points of confusion/grievances.
 
 #### Overall Assessment
 
+This site has fairly good and clear information architecture - the way information is nested here is quite logical and easy to navigate, and the array of possible interactions that the user has available to them is narrow yet very simple & hard to majorly slip up with. However, it suffers largely in its visual execution which creates a lot of competing elements for attention that reduce the visibility of each distinct piece of information on the page. It also does not have clear points of contact for users that want to learn more personalized information about the initiative, and its interactive map navigation could use a lot of work.
 
+Severity ratings:
+1. Top Priority: Aesthetic & Minimalist design, Help & Documentation, 
+2. Important to Fix: User Control & Freedom, Visibility of System Status, Flexibility & efficiency of use
+3. Small Inconvenience: Match between System and Real World, Consistency & Standards
