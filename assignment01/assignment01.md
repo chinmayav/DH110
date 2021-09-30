@@ -151,9 +151,9 @@ Bad:
 This site could certainly do with visual tweaks that would not only clean up the aesthetic but also help make relevant pieces of information seem more visible and make the site more scannable. One could even add bonus bits of functionality that would make it feel more tailored to the user's context, stage of use and tastes. However, apart from that, the site is actually quite functional for its intended purpose, with relatively immediate feedback for every distinct user action taken.
 
 Severity ratings:
-Top Priority: Visibility of system status; Recognition and Recall; Aesthetic & Minimalist design
-Important to Fix: User control and freedom; Error Prevention; Help users recognize, diagnose and recover from errors
-Small Inconvenience: Flexibility & Efficiency of use; Help & Documentation; Consistency & Standards
+1. Top Priority: Visibility of system status; Recognition and Recall; Aesthetic & Minimalist design
+2. Important to Fix: User control and freedom; Error Prevention; Help users recognize, diagnose and recover from errors
+3. Small Inconvenience: Flexibility & Efficiency of use; Help & Documentation; Consistency & Standards
 
 ### Website 2: [Go Higher - Massachusetts DHE](https://www.mass.edu/gohigher/home.asp)
 
